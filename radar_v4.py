@@ -58,11 +58,11 @@ def create_weather_image(weather_data):
     return image
 
 def display_image_on_epd(image):
-    epd = epd7in5b_V3.EPD()
+    epd = epd7in3e.EPD()
     epd.init()
     epd.Clear()
     # Convert PIL Image to the format needed by the display
-    # For Waveshare epd7in5b, use getbuffer()
+    # For Waveshare epd7in3e, use getbuffer()
     buf = epd.getbuffer(image)
     epd.display(buf)
     epd.sleep()
