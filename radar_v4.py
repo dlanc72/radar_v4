@@ -1,6 +1,6 @@
 import requests
 from PIL import Image, ImageDraw, ImageFont
-from waveshare_epd import epd7in5b_V3
+from waveshare_epd import epd7in3e
 import time
 
 # Configuration
