@@ -4,8 +4,8 @@ from waveshare_epd import epd7in3e
 import time
 
 # Configuration
-LATITUDE = X  # Replace with your latitude
-LONGITUDE = Y  # Replace with your longitude
+LATITUDE = 29.68  # Replace with your latitude
+LONGITUDE = -95.17  # Replace with your longitude
 API_KEY = '1234567890'  # Your OpenWeather API key
 WEATHER_API_URL = f'https://api.openweathermap.org/data/2.5/weather?lat={LATITUDE}&lon={LONGITUDE}&appid={API_KEY}&units=metric'
 
